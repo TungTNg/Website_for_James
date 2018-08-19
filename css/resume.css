@@ -1,0 +1,37 @@
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 5vh;
+  grid-row-gap: 5vh;
+  height: 100vh;
+}
+
+.about {
+justify-self: center;
+align-self: center;
+width: 65%;
+}
+
+.aboutme {
+  background: rgba(255, 255, 255, 0.75);
+  align-self: center;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 0 0.65rem rgba(155, 29, 40, 0.75);
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+  body {
+  grid-template-rows: auto auto auto;
+  }
+
+  .about {
+    width: 85%;
+  }
+
+
+}

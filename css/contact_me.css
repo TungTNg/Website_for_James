@@ -1,0 +1,26 @@
+.container {
+  width: 18.75rem;
+  background-color: rgba(255,255,255,0.90);
+  padding: 0 1.25rem 1.25rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.4rem rgba(0,0,0,0.15);
+  text-align: center;
+  justify-content: center;
+  
+  align-self: center;
+  justify-self: center;
+
+}
+
+input, textarea {
+  width: 18rem;
+}
+
+div input[type="submit"] {
+  margin-top: 0.75rem;
+}
+
+label {
+  color: rgba(155, 29, 40, 0.85);
+  font-weight: bold;
+}

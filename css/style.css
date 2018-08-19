@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,300);
+
+body {
+  background-color: #f0f0f0;
+  font-family: roboto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 87% auto;
+  height: 100vh;
+  
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+#footer {
+  background-color: rgb(155, 29, 40);
+  color: white;
+  text-align: center;
+}
+
+#footer a {
+	color: white;
+}
+
+button:focus { outline: none; }
